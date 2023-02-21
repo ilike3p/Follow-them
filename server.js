@@ -508,7 +508,7 @@ const deleteRole = () => {
   });
 };
 
-// Delete an employeed
+// Delete an employee
 const deleteEmployee = () => {
   const employeeSql = `SELECT * FROM employee`;
   connection.query(employeeSql, (err, data) => {
@@ -538,7 +538,7 @@ const deleteEmployee = () => {
   });
 };
 
-// END APPLICATION
+// END APP
 function closeApplication() {
   console.log(
     redToGreen(str, {
